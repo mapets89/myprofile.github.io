@@ -297,6 +297,10 @@ header {
     color: thistle;
 }
 
+#image_presentacion {
+    margin-left: 10em;
+}
+
 @font-face {
     font-family: 'Righteous';
     src: url(font/Righteous-Regular.ttf);
