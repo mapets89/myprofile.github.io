@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
     <title>My Profile</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/functions.js"></script>
 </head>
 
 <body>
@@ -67,8 +68,8 @@
             <label id="ejercito_title" class="title_sec">
             EJERCITO ARGENTINO (2008-2017)
         </label>
-            <p id="ejercito_descrip" class="descrip">Me desempeñe como Soporte Tecnico Nivel 1 y 2. Realizando tareas de mantenimiento y reparacion de PCs, matenimiento y armado</br>
-                de Redes. Tambien diseñe y realice un sistema de stock de depositos en Microsoft Access. </p>
+            <p id="ejercito_descrip" class="descrip">Me desempeñe como Soporte Tecnico Nivel 1 y 2. Realizando tareas de mantenimiento y reparacion de PCs </br>
+                matenimiento y armado de Redes. Tambien diseñe y realice un sistema de stock de depositos en Microsoft Access. </p>
         </div>
     </section>
 
@@ -191,9 +192,38 @@
 
     </section>
 
-    <footer>
-        <p>Zozor Copyright - Todos los derechos reservados<br />
-            <a href="#">¡Contacta conmigo!</a></p>
+    <section id="sec_contact" class="seccion">
+        <div id=contact_buttons>
+            <label id="linkedin" class="image_contact">
+                <a title="Linkedin" href="https://www.linkedin.com/in/mdquin89/"><img src="images/linkedin.png" alt="linkedin" /></a>
+            </label>
+
+            <label id="instagram" class="image_contact">
+                <a title="Instagram" href="https://www.instagram.com/mdquin/"><img src="images/instagram.png" alt="instagram" /></a>
+            </label>
+
+            <label id="twitter" class="image_contact">
+                <a title="Twitter" href="https://twitter.com/matiphm"><img src="images/twitter.png" alt="twitter" /></a>
+            </label>
+        </div>
+
+        <div id="contact_radius">
+            <div id="name_mail">
+                <label id="name_label" class="label_contact">Nombre</label> <input id="name" class="input_contact" type="text">
+                <label id="mail_label" class="label_contact">Mail </label> <input id="mail" class="input_contact" type="text">
+            </div>
+            <div id="descript">
+                <textarea id="input_descript" class="input_descript" type="text" rows="5" placeholder="Escribime algo..."> </textarea>
+            </div>
+            <div id="send">
+                <a id="button_enviar" onclick="sendMail()"><img src="images/send.png" alt="send" /></a>
+            </div>
+        </div>
+
+    </section>
+
+    <footer id="footer">
+        <p>Matias Quintana Copyright - Todos los derechos reservados</p>
     </footer>
 
 </body>
