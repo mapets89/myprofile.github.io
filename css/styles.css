@@ -43,6 +43,36 @@ header {
     margin-left: 2em;
 }
 
+.image_contact {
+    margin-left: 2em;
+}
+
+.label_contact {
+    font-size: 1.5em;
+    font-family: 'Marker';
+}
+
+.input_contact {
+    font-family: 'Anton';
+    font-size: 0.9em;
+    text-align: center;
+    border-radius: 129px 129px 129px 129px;
+    -moz-border-radius: 129px 129px 129px 129px;
+    -webkit-border-radius: 129px 129px 129px 129px;
+    border: 0px solid #000000;
+}
+
+.input_descript {
+    margin-left: 4em;
+    margin-top: 2em;
+    width: 500px;
+    height: 180px;
+    border-radius: 63px 63px 63px 63px;
+    -moz-border-radius: 63px 63px 63px 63px;
+    -webkit-border-radius: 63px 63px 63px 63px;
+    border: 0px solid #000000;
+}
+
 #principal_div {
     position: static;
     text-align: right;
@@ -210,6 +240,63 @@ header {
     margin-left: 0;
 }
 
+#contact_radius {
+    border-radius: 47px 47px 47px 47px;
+    -moz-border-radius: 47px 47px 47px 47px;
+    -webkit-border-radius: 47px 47px 47px 47px;
+    border: 0px solid #000000;
+    -webkit-box-shadow: 0px 0px 71px 6px rgba(105, 105, 105, 1);
+    -moz-box-shadow: 0px 0px 71px 6px rgba(105, 105, 105, 1);
+    box-shadow: 0px 0px 71px 6px rgba(105, 105, 105, 1);
+    background-color: #43515B;
+    width: 600px;
+    height: 400px;
+}
+
+#sec_contact {
+    margin-left: 27em;
+}
+
+#name_mail {
+    margin-left: 2em;
+}
+
+#name_label {
+    color: #744BFF;
+}
+
+#name {
+    margin-top: 3em;
+}
+
+#mail_label {
+    margin-left: 1em;
+    color: #744BFF;
+}
+
+#mail {
+    width: 200px;
+}
+
+#send {
+    margin-left: 16em;
+    margin-top: 1.5em;
+}
+
+#input_descript {
+    resize: none;
+    text-underline-position: auto;
+    text-indent: 50px;
+    font-family: 'Anton';
+    font-size: 0.9em;
+}
+
+#footer {
+    margin-top: 5em;
+    text-align: center;
+    color: thistle;
+}
+
 @font-face {
     font-family: 'Righteous';
     src: url(font/Righteous-Regular.ttf);
@@ -227,6 +314,13 @@ header {
 @font-face {
     font-family: 'Oswald';
     src: url(font/Oswald-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Marker';
+    src: url(font/PermanentMarker-Regular.ttf);
     font-weight: normal;
     font-style: normal;
 }
